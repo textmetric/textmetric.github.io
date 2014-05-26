@@ -9,7 +9,7 @@ a {
 }
 
 .navbar{
-	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact', 'HelveticaNeue-Thin', 'Helvetica Neue Thin', 'Helvetica Neue', Helvetica, Arial;
+	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact', 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial;
 	background-color: #323232;
 	color: white;
 	padding-top: 30px;
@@ -35,14 +35,14 @@ a {
 
 .main h1{
 	font-size:64;
-	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact', 'HelveticaNeue-Thin', 'Helvetica Neue Thin', 'Helvetica Neue', Helvetica, Arial;
+	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact', 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial;
 	text-align:center;
 	color: #323232;
 }
 
 .main h2{
 	font-size:32;
-	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact', 'HelveticaNeue-Thin', 'Helvetica Neue Thin', 'Helvetica Neue', Helvetica, Arial;
+	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact', 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial;
 	text-align:center;
 	color: #323232;
 }
