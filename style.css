@@ -9,15 +9,19 @@ a {
 }
 
 .navbar{
-	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold';
+	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact';
 	background-color: #323232;
 	color: white;
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 5px;
 	text-align: center;
-	font-size: 24;
+	font-size: 30;
 	text-transform:uppercase;
 	word-spacing:30px;
+}
+
+.navbar img{
+	padding-right:30px;
 }
 
 .navbar a{
@@ -30,15 +34,15 @@ a {
 }
 
 .main h1{
-	font-size:56;
-	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold';
+	font-size:64;
+	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact';
 	text-align:center;
 	color: #323232;
 }
 
 .main h2{
 	font-size:32;
-	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold';
+	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact';
 	text-align:center;
 	color: #323232;
 }
