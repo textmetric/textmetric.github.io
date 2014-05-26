@@ -30,7 +30,7 @@ a {
 }
 
 .main{
-	padding-top:20px;
+	padding-top:50px;
 }
 
 .main h1{
@@ -41,7 +41,8 @@ a {
 }
 
 .main h2{
-	font-size:32;
+	margin-bottom:0px;
+	font-size:48;
 	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact', 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial;
 	text-align:center;
 	color: #323232;
@@ -65,6 +66,7 @@ a {
 	padding-top:20px;
 	color:white;
 	display: inline-block;
+	vertical-align:top;
 }
 
 .prodimgwrapper{
@@ -82,7 +84,8 @@ a {
 }
 
 .product h4{
-	font-size:24;
+	min-height:60px;
+	font-size:26;
 	font-weight:lighter;
 	margin: 0;
 	padding-bottom:20px;
