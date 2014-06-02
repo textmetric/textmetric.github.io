@@ -45,10 +45,11 @@
 <div class="contact">
 	<h2>How may we help you?</h2>
 	<p>Tell us about your business and how we can help it grow.</p>
-	<form action="#">
-		<input type="email" value="Your Email" onfocus="if (this.value=='Your Email') this.value='';" onfocusout="if (this.value=='') this.value='Your Email';"/>
-		<input type="text" value="Your Message" onfocus="if (this.value=='Your Message') this.value='';" onfocusout="if (this.value=='') this.value='Your Message';"/>
-		<input type="submit" value="Send">
+	<form class="form-subscribe text-center" role="form" id="contactform1">
+		<input type="email" name="email" value="Your Email" id="email-field1" onfocus="if (this.value=='Your Email') this.value='';" onfocusout="if (this.value=='') this.value='Your Email';"/>
+		<input type="text" value="Your Message" id="message-field1" onfocus="if (this.value=='Your Message') this.value='';" onfocusout="if (this.value=='') this.value='Your Message';"/>
+		<p class="success-message" id="successmessage1">Thank you! We'll be in touch shortly.</p>
+		<button class="submit-button" type="button" id="submitbutton1">Send</button>
 	</form>
 </div>
 
@@ -171,15 +172,19 @@
 	<a href="http://www.orand.cl" target="_blank"><img src="img/logo-orand-group.png"></a>
 	<p>Feel free to contact us</p>
 	<div class="contact">
-		<form action="#">
-			<input type="email" value="Your Email" onfocus="if (this.value=='Your Email') this.value='';" onfocusout="if (this.value=='') this.value='Your Email';"/>
-			<input type="text" value="Your Message" onfocus="if (this.value=='Your Message') this.value='';" onfocusout="if (this.value=='') this.value='Your Message';"/>
-			<input type="submit" value="Send">
+		<form class="form-subscribe text-center" role="form" id="contactform2">
+			<input type="email" name="email" value="Your Email" id="email-field2" onfocus="if (this.value=='Your Email') this.value='';" onfocusout="if (this.value=='') this.value='Your Email';"/>
+			<input type="text" value="Your Message" id="message-field2" onfocus="if (this.value=='Your Message') this.value='';" onfocusout="if (this.value=='') this.value='Your Message';"/>
+			<p class="success-message" id="successmessage2">Thank you! We'll be in touch shortly.</p>
+			<button class="submit-button" type="button" id="submitbutton2">Send</button>
 		</form>
 	</div>
 	
 	
 </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/email.js" type="text/javascript"></script>
 
 </body>
 </html>
