@@ -8,6 +8,12 @@ a {
 	text-decoration: none;
 }
 
+.lang {
+	font-family: 'HelveticaNeue-Thin', 'Helvetica Neue Thin', 'Helvetica Neue', Helvetica, Arial;
+	font-size:14px;
+	color:#666666;
+}
+
 .navbar{
 	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact', 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial;
 	background-color: #323232;
@@ -93,6 +99,7 @@ a {
 
 .bg-answers { background-color:#82578C; }
 .bg-mail { background-color:#455B8B; }
+.bg-touchpoint { background-color:#C55C5C; }
 .bg-social { background-color:#458B60; }
 .bg-behind { background-color:#EBEBEB; }
 
