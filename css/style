@@ -9,9 +9,9 @@ a {
 }
 
 .lang {
-	font-family: 'HelveticaNeue-Thin', 'Helvetica Neue Thin', 'Helvetica Neue', Helvetica, Arial;
+	%font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial;
 	font-size:14px;
-	color:#666666;
+	color:#BABABA;
 }
 
 .navbar{
@@ -23,10 +23,9 @@ a {
 	text-align: center;
 	font-size: 24;
 	text-transform:uppercase;
-	word-spacing:30px;
 }
 
-.navbar img{
+.baritem {
 	padding-right:30px;
 }
 
