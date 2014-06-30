@@ -1,0 +1,65 @@
+body{
+	background-image: url(../img/bg.png);
+	text-align:center;
+	margin: 0;
+	font-family: 'HelveticaNeue-Thin', 'Helvetica Neue Thin', 'Helvetica Neue', Helvetica, Arial;
+}
+
+a {
+	text-decoration: none;
+	color: #6A6A6A;
+}
+
+.main{
+	padding-top:60px;
+}
+
+.lang{
+	font-size:10;
+	color: #6A6A6A;
+	display: inline-block;
+	text-align:right;
+	width: 600px;
+	padding-top:10px;
+}
+
+.main h1{
+	font-size:64;
+	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact', 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial;
+	text-align:center;
+	color: #323232;
+}
+
+.main h2{
+	margin-bottom:0px;
+	font-size:36;
+	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue CondensedBold', 'Impact', 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial;
+	text-align:center;
+	color: #6A6A6A;
+}
+
+.main p{
+	padding-top:20px;
+	font-size:20;
+	line-height:150%;
+	font-weight:normal;
+	text-align:center;
+	color: #6A6A6A;
+	max-width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.brand {
+	width:200px;
+	margin:10px;
+	display: inline-block;
+	vertical-align:top;
+}
+
+.brandimgwrapper{
+	display: table-cell;
+	vertical-align: middle;
+	width:200px;
+	height:120px;
+}
